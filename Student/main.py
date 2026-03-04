@@ -1,4 +1,4 @@
-from student import Student
+from Student.student import Student
 
 lajos = Student("Lajos", 18, 178, "fiu")
 anna = Student("Anna", 15, 170, "lany")

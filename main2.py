@@ -6,7 +6,7 @@ auto2 = Auto("Ford", "Focus", 2002)
 auto3 = Auto("Audi", "E-Tron GT", 2021)
 auto4 = Auto("Ford", "Mustang", 2005)
 auto5 = Auto("Ford", "Mustang", 2002)
-auto7 = Auto(dfsfds, ghfhjfhg, 2005)
+# auto7 = Auto(dfsfds, ghfhjfhg, 2005)
 
 # 2. Bejárás for ciklussal
 autok = [auto1, auto2, auto3, auto4, auto5]
