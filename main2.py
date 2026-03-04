@@ -6,6 +6,7 @@ auto2 = Auto("Ford", "Focus", 2002)
 auto3 = Auto("Audi", "E-Tron GT", 2021)
 auto4 = Auto("Ford", "Mustang", 2005)
 auto5 = Auto("Ford", "Mustang", 2002)
+auto7 = Auto(dfsfds, ghfhjfhg, 2005)
 
 # 2. Bejárás for ciklussal
 autok = [auto1, auto2, auto3, auto4, auto5]
@@ -56,3 +57,13 @@ for auto in autok:
     if auto.gyartasi_ev == min(gyartasi_evek):
         print(f"A legidősebb autó adatai: {auto}___{2026-auto.gyartasi_ev}")
         print(f"A legidősebb autó: {auto.marka} {auto.tipus}")
+
+
+auto_6 = Auto("BMW", "320d", 2019, 5)
+print(auto_6)
+auto1.utazik(250)
+print
+auto_6.utazik(200)
+print(auto_6)
+auto_6.tankol(10)
+print(auto_6)
